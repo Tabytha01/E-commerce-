@@ -17,11 +17,12 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 py-8">
      {/* Hero Section */}
 <div 
-  className="relative text-white mb-8 h-96 flex items-center -mx-4 px-4 overflow-hidden"
+  className="relative text-white mb-8 h-96 flex items-center -mx-2 px-2 overflow-hidden"
   style={{
     backgroundImage: `url('/image/Heroimg.jpg')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'right center',
+    backgroundPosition: 'right',
+    
   }}
 >
   <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-transparent"></div>
