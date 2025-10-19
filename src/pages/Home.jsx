@@ -3,14 +3,14 @@ import ProductCard from '../components/ProductCard';
 
 export default function Home() {
   const featuredProducts = [
-    { id: 1, name: "Laptop", price: 999, category: "Electronics", image: "https://via.placeholder.com/300x200?text=Laptop" },
-    { id: 2, name: "Headphones", price: 199, category: "Electronics", image: "https://via.placeholder.com/300x200?text=Headphones" },
-    { id: 3, name: "T-Shirt", price: 29, category: "Fashion", image: "https://via.placeholder.com/300x200?text=TShirt" },
-    { id: 4, name: "Shoes", price: 89, category: "Fashion", image: "https://via.placeholder.com/300x200?text=Shoes" },
-    { id: 5, name: "Watch", price: 150, category: "Accessories", image: "https://via.placeholder.com/300x200?text=Watch" },
-    { id: 6, name: "Backpack", price: 79, category: "Accessories", image: "https://via.placeholder.com/300x200?text=Backpack" },
-    { id: 7, name: "Phone", price: 799, category: "Electronics", image: "https://via.placeholder.com/300x200?text=Phone" },
-    { id: 8, name: "Jeans", price: 59, category: "Fashion", image: "https://via.placeholder.com/300x200?text=Jeans" },
+    { id: 1, name: "Laptop", price: 999, category: "Electronics", image: "/image/Laptop.jpg" },
+    { id: 2, name: "Headphones", price: 199, category: "Electronics", image: "/image/Headphones.jpg" },
+    { id: 3, name: "T-Shirt", price: 29, category: "Fashion", image: "/image/T-shirts.jpg" },
+    { id: 4, name: "Shoes", price: 89, category: "Fashion", image: "/image/Shoes.jpg" },
+    { id: 5, name: "Watch", price: 150, category: "Accessories", image: "/image/Watch.jpg" },
+    { id: 6, name: "Backpack", price: 79, category: "Accessories", image: "/image/Backpack.jpg" },
+    { id: 7, name: "Phone", price: 799, category: "Electronics", image: "/image/Phone.jpg" },
+    { id: 8, name: "Jeans", price: 59, category: "Fashion", image: "/image/Jeans.jpg" },
   ];
 
   return (
