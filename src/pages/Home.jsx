@@ -8,7 +8,7 @@ export default function Home() {
     { id: 3, name: "T-Shirt", price: 29, category: "Fashion", image: "/image/T-shirts.jpg" },
     { id: 4, name: "Shoes", price: 89, category: "Fashion", image: "/image/Shoes.jpg" },
     { id: 5, name: "Watch", price: 150, category: "Accessories", image: "/image/Watch.jpg" },
-    { id: 6, name: "Backpack", price: 79, category: "Accessories", image: "/image/Backpack.jpg" },
+    { id: 6, name: "Backpack", price: 79, category: "Accessories", image: "/image/Backpacks.jpg" },
     { id: 7, name: "Phone", price: 799, category: "Electronics", image: "/image/Phone.jpg" },
     { id: 8, name: "Jeans", price: 59, category: "Fashion", image: "/image/Jeans.jpg" },
   ];
