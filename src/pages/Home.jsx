@@ -15,9 +15,9 @@ export default function Home() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      {/* Hero Section */}
+     {/* Hero Section */}
 <div 
-  className="relative text-white p-15 rounded-lg mb-10 text-center h-80 flex items-center justify-center"
+  className="relative text-white p-12 rounded-lg mb-8 text-center h-80 flex items-center justify-center"
   style={{
     backgroundImage: `url('/image/Heroimg.jpg')`,
     backgroundSize: 'cover',
