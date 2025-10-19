@@ -16,13 +16,23 @@ export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-12 rounded-lg mb-8 text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to My Store!</h1>
-        <p className="text-xl mb-6">Discover amazing products at great prices</p>
-        <Link to="/products" className="bg-white text-blue-600 px-6 py-3 rounded font-bold hover:bg-gray-100">
-          Shop Now
-        </Link>
-      </div>
+<div 
+  className="relative text-white p-15 rounded-lg mb-10 text-center h-80 flex items-center justify-center"
+  style={{
+    backgroundImage: `url('/image/Heroimg.jpg')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }}
+>
+  <div className="absolute inset-0 bg-black opacity-40 rounded-lg"></div>
+  <div className="relative z-10">
+    <h1 className="text-4xl font-bold mb-4">Welcome to My Store!</h1>
+    <p className="text-xl mb-6">Discover amazing products at great prices</p>
+    <Link to="/products" className="bg-white text-blue-600 px-6 py-3 rounded font-bold hover:bg-gray-100">
+      Shop Now
+    </Link>
+  </div>
+</div>
 
       {/* Featured Products */}
       <h2 className="text-3xl font-bold mb-6">Featured Products</h2>
