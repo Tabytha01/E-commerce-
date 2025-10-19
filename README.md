@@ -18,24 +18,24 @@ A morden Website built with React and TailwindCSS. This project showcases a full
 
 ## Project Structure
 
-e-commerce/
-├── public/
-│   └── image/              # Product images
-├── src/
-│   ├── components/         # Reusable components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   └── ProductCard.jsx
-│   ├── pages/              # Page components
-│   │   ├── Home.jsx
-│   │   ├── Products.jsx
-│   │   ├── About.jsx
-│   │   └── Contact.jsx
-│   ├── App.jsx             # Main app component
-│   ├── index.css           # Global styles
-│   └── main.jsx            # Entry point
-├── package.json
-└── vite.config.js
+- e-commerce/
+- ├── public/
+- │   └── image/              # Product images
+- ├── src/
+- │   ├── components/         # Reusable components
+- │   │   ├── Navbar.jsx
+- │   │   ├── Footer.jsx
+- │   │   └── ProductCard.jsx
+- │   ├── pages/              # Page components
+- │   │   ├── Home.jsx
+- │   │   ├── Products.jsx
+- │   │   ├── About.jsx
+- │   │   └── Contact.jsx
+- │   ├── App.jsx             # Main app component
+- │   ├── index.css           # Global styles
+- │   └── main.jsx            # Entry point
+- ├── package.json
+- └── vite.config.js
 
 ## Screenshot
 
