@@ -38,5 +38,5 @@ A morden Website built with React and TailwindCSS. This project showcases a full
 - └── vite.config.js
 
 ## Screenshot
-
+![alt text](public/image/image.jpg)
 ## Deployed Link
