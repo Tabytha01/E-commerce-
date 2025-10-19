@@ -17,20 +17,24 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 py-8">
      {/* Hero Section */}
 <div 
-  className="relative text-white p-12 rounded-lg mb-8 text-center h-80 flex items-center justify-center"
+  className="relative text-white mb-8 h-96 flex items-center -mx-4 px-4 overflow-hidden"
   style={{
     backgroundImage: `url('/image/Heroimg.jpg')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundPosition: 'right center',
   }}
 >
-  <div className="absolute inset-0 bg-black opacity-40 rounded-lg"></div>
-  <div className="relative z-10">
-    <h1 className="text-4xl font-bold mb-4">Welcome to My Store!</h1>
-    <p className="text-xl mb-6">Discover amazing products at great prices</p>
-    <Link to="/products" className="bg-white text-blue-600 px-6 py-3 rounded font-bold hover:bg-gray-100">
-      Shop Now
-    </Link>
+  <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-800 to-transparent"></div>
+  <div className="max-w-7xl mx-auto w-full flex items-center justify-between relative z-10">
+    {/* Left Side - Text */}
+    <div className="flex-1 pr-8">
+      <p className="text-sm font-semibold text-blue-200 mb-2">WELCOME TO OUR STORE</p>
+      <h1 className="text-5xl font-bold mb-4">Supercharge your shopping</h1>
+      <p className="text-lg text-blue-100 mb-8">Discover amazing products at great prices with total control over your purchases.</p>
+      <Link to="/products" className="bg-yellow-300 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 text-lg inline-block">
+        Shop Now
+      </Link>
+    </div>
   </div>
 </div>
 

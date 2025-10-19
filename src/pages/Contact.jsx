@@ -37,11 +37,11 @@ export default function Contact() {
             </div>
             <div>
               <h3 className="font-bold text-lg">Phone</h3>
-              <p className="text-gray-700">+1 (555) 123-4567</p>
+              <p className="text-gray-700">+250 794143618</p>
             </div>
             <div>
               <h3 className="font-bold text-lg">Address</h3>
-              <p className="text-gray-700">123 Main Street, City, Country</p>
+              <p className="text-gray-700">KK 549, Kigali, Rwanda</p>
             </div>
             <div>
               <h3 className="font-bold text-lg">Hours</h3>
