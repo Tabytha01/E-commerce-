@@ -6,7 +6,7 @@ export default function About() {
       <div className="bg-gray-50 p-8 rounded-lg mb-8">
         <h2 className="text-2xl font-bold mb-4">Our Story</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-          Welcome to My Store! We started with a simple mission: to provide high-quality products at affordable prices. 
+          Welcome to Sgoodies! We started with a simple mission: to provide high-quality products at affordable prices. 
           Founded in 2025, we've grown to serve thousands of happy customers worldwide. We believe in excellence, 
           integrity, and customer satisfaction in everything we do.
         </p>
@@ -23,7 +23,7 @@ export default function About() {
           <p className="text-gray-700">Competitive pricing without compromising on quality.</p>
         </div>
         <div className="bg-yellow-50 p-6 rounded-lg">
-          <h3 className="text-xl font-bold mb-2">✓ Fast Shipping</h3>
+          <h3 className="text-xl font-bold mb-2">✓ Fast delivery</h3>
           <p className="text-gray-700">Quick and reliable delivery to your doorstep.</p>
         </div>
         <div className="bg-purple-50 p-6 rounded-lg">
