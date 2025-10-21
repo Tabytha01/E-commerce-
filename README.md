@@ -38,6 +38,6 @@ A morden Website built with React and TailwindCSS. This project showcases a full
 - └── vite.config.js
 
 ## Screenshot
-
+![alt text](public/image/image.jpg)
 ## Deployed Link
-https://e-commerce-8amj.vercel.app/
+https://e-commerce-ws89-56s6u22fq-tabitha-kundas-projects.vercel.app/
